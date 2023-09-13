@@ -637,6 +637,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8410642723714631823, guid: d1c6bfffaa956f949b1008a5b3634ea1, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8410642723714631823, guid: d1c6bfffaa956f949b1008a5b3634ea1, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6383708802575772428, guid: d1c6bfffaa956f949b1008a5b3634ea1, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6383708802575772428, guid: d1c6bfffaa956f949b1008a5b3634ea1, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6376598417574598980, guid: d1c6bfffaa956f949b1008a5b3634ea1, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6376598417574598980, guid: d1c6bfffaa956f949b1008a5b3634ea1, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5440952768270286294, guid: d1c6bfffaa956f949b1008a5b3634ea1, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5440952768270286294, guid: d1c6bfffaa956f949b1008a5b3634ea1, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2262096511619629556, guid: d1c6bfffaa956f949b1008a5b3634ea1, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2262096511619629556, guid: d1c6bfffaa956f949b1008a5b3634ea1, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d1c6bfffaa956f949b1008a5b3634ea1, type: 3}
       propertyPath: m_Name
       value: goalpost (score side)
@@ -1129,6 +1169,46 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d1c6bfffaa956f949b1008a5b3634ea1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8410642723714631823, guid: d1c6bfffaa956f949b1008a5b3634ea1, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8410642723714631823, guid: d1c6bfffaa956f949b1008a5b3634ea1, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6383708802575772428, guid: d1c6bfffaa956f949b1008a5b3634ea1, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6383708802575772428, guid: d1c6bfffaa956f949b1008a5b3634ea1, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6376598417574598980, guid: d1c6bfffaa956f949b1008a5b3634ea1, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6376598417574598980, guid: d1c6bfffaa956f949b1008a5b3634ea1, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5440952768270286294, guid: d1c6bfffaa956f949b1008a5b3634ea1, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -5440952768270286294, guid: d1c6bfffaa956f949b1008a5b3634ea1, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2262096511619629556, guid: d1c6bfffaa956f949b1008a5b3634ea1, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2262096511619629556, guid: d1c6bfffaa956f949b1008a5b3634ea1, type: 3}
+      propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d1c6bfffaa956f949b1008a5b3634ea1, type: 3}
