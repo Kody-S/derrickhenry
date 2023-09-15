@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7761929777453629169}
   - component: {fileID: 4465850550477439053}
   - component: {fileID: 3541133557135581210}
+  - component: {fileID: 5788357267741111801}
   m_Layer: 0
   m_Name: 49ersplayeridle
   m_TagString: Untagged
@@ -162,3 +163,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.3052957, y: 3.66646, z: 0.20000002}
   m_Center: {x: 0.0041097403, y: 0.013529509, z: 0}
+--- !u!95 &5788357267741111801
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8636856305444897313}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 330460da2585b1340aecbb6e853f5852, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
