@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnManager : MonoBehaviour
+public class SpawnManagerKC : MonoBehaviour
 {
-    public GameObject enemyPrefab;
+public GameObject enemyPrefab;
     private float spawnRange = 9;
 
     // Start is called before the first frame update
     void Start()
     {
-        SpawnEnemyWave(3);
+        SpawnEnemyWave(6);
     }
 
     // Update is called once per frame

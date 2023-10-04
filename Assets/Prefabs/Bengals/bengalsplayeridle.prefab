@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6989388254383215986}
   - component: {fileID: 1793728072848059496}
   - component: {fileID: -2429896189370956961}
+  - component: {fileID: 1718481279138442739}
   m_Layer: 0
   m_Name: bengalsplayeridle
   m_TagString: Untagged
@@ -141,7 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92b7e9ae98f6fd548aa5837b8159615b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 0.9
 --- !u!65 &1793728072848059496
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -184,3 +185,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1718481279138442739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6949798761130404631}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da57a032ca73f3a4c96e1dc3b50dab6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 6949798761130404631}
