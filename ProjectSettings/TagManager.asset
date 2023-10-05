@@ -7,6 +7,9 @@ TagManager:
   - Ground
   - Enemy
   - Football
+  - ball
+  - Gatorade
+  - Pepsi
   layers:
   - Default
   - TransparentFX

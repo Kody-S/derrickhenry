@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -629893991879899636}
   m_Layer: 0
   m_Name: chiefsplayeridle
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35,7 +35,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7196249756379965942
 SpriteRenderer:
@@ -96,7 +96,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2191305885986293230}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b5c899723b0d5eb42a263c9ee6386020, type: 3}
   m_Name: 
@@ -127,7 +127,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &3334004889012827238
 MonoBehaviour:
@@ -161,8 +161,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.2690632, y: 3.6760483, z: 0.20000002}
-  m_Center: {x: -0.0041669607, y: -0.008397549, z: 0}
+  m_Size: {x: 3.2690632, y: 3.5931215, z: 0.20000002}
+  m_Center: {x: -0.0041669607, y: 0.033065826, z: 0}
 --- !u!95 &-629893991879899636
 Animator:
   serializedVersion: 5

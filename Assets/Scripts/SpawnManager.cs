@@ -5,12 +5,15 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     public GameObject enemyPrefab;
-    private float spawnRange = 9;
+    public GameObject gatoradePrefab;
+    public GameObject pepsiPrefab;
+    private float spawnRange = 15;
 
     // Start is called before the first frame update
     void Start()
     {
         SpawnEnemyWave(3);
+        SpawnCollectable();
     }
 
     // Update is called once per frame
@@ -29,6 +32,10 @@ public class SpawnManager : MonoBehaviour
         for (int i = 0; i < enemiesToSpawn; i++){
             Instantiate(enemyPrefab, GenerateSpawnPosition(),enemyPrefab.transform.rotation);
         }
+    }
+    void SpawnCollectable(){
+        Instantiate(gatoradePrefab, GenerateSpawnPosition(), gatoradePrefab.transform.rotation);
+        Instantiate(pepsiPrefab, GenerateSpawnPosition(), pepsiPrefab.transform.rotation);
     }
 }
 // new Vector3(0, 0.81f, 6), 

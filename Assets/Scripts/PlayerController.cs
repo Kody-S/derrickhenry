@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    GameManager gameManager;
     public Rigidbody theRB;
     public float moveSpeed, jumpForce;
 
@@ -13,8 +14,12 @@ public class PlayerController : MonoBehaviour
     public Transform groundPoint;
     private bool isGrounded;
     public bool hasFootball;
+    public bool hasGatorade;
+    public bool hasPepsi;
     public GameObject footballIndicator;
     private bool gameOver = false;
+    public float gatoradeSpeed;
+    public float pepsiSpeed;
     // Start is called before the first frame update
     void Start()
     {
@@ -51,7 +56,23 @@ public class PlayerController : MonoBehaviour
             Destroy(other.gameObject);
             footballIndicator.gameObject.SetActive(true);
             }
+        if (other.CompareTag("Gatorade")){
+            hasGatorade = true;
+            theRB.velocity = new Vector3(moveInput.x * moveSpeed + gatoradeSpeed, theRB.velocity.y, moveInput.y * moveSpeed + gatoradeSpeed);
+            gatoradeSpeed = moveSpeed + 2;
+            moveSpeed = gatoradeSpeed;
+            Destroy(other.gameObject);
+            //StartCoroutine(PowerupCountdownRoutine());
         }
+        if (other.CompareTag("Pepsi")){
+            hasPepsi = true;
+            theRB.velocity = new Vector3(moveInput.x * moveSpeed + pepsiSpeed, theRB.velocity.y, moveInput.y * moveSpeed + pepsiSpeed);
+            pepsiSpeed = moveSpeed - 2;
+            moveSpeed = pepsiSpeed;
+            Destroy(other.gameObject);
+            //StartCoroutine(PowerupCountdownRoutine());
+        }
+    }
 
     private void OnCollisionEnter(Collision collision){
         if (collision.gameObject.CompareTag("Enemy") && hasFootball){
@@ -59,6 +80,5 @@ public class PlayerController : MonoBehaviour
             gameOver = true;
             Debug.Log("Game Over!");
         }
-        
     }
 }
