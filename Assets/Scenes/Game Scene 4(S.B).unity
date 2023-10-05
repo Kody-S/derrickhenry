@@ -831,7 +831,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   theRB: {fileID: 743880686}
-  moveSpeed: 7
+  moveSpeed: 6
   jumpForce: 6
   whatIsGround:
     serializedVersion: 2
