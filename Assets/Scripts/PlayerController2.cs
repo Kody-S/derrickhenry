@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine.SceneManagement;
 using Unity.UI;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController2 : MonoBehaviour
 {
     GameManager gameManager;
     public Rigidbody theRB;
@@ -82,14 +82,9 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Collided with " + collision.gameObject.name + " with football " + hasFootball);
             gameOver = true;
             Debug.Log("Game Over!");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 10);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 7);
         }
 
     }
-    private void OnCollisionEnter(Collider collision){
-        if (!gameObject.CompareTag("Enemy")){
-            gameManager.GameOver();
-            moveSpeed = 0.0f;
-        }
-    }
+
 }
