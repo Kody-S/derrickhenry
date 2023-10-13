@@ -69,4 +69,20 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 9);
     }
 
+    public void SecondLevel(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void ThirdLevel(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+    }
+
+    public void FourthLevel(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
+    }
+
+    public void ReturnFromShowcase(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 6);
+    }
+
 }

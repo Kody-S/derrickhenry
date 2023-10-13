@@ -12,12 +12,13 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         enemyRb = GetComponent<Rigidbody>();
-        player = GameObject.Find("derrickhenryplayeridle");
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        player = GameObject.Find("Football Indicator");
         enemyRb.AddForce((player.transform.position - transform.position).normalized * speed);
     }
 

@@ -3997,7 +3997,7 @@ GameObject:
   - component: {fileID: 2043197091}
   m_Layer: 0
   m_Name: Football Indicator
-  m_TagString: Untagged
+  m_TagString: Football Indicator
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
