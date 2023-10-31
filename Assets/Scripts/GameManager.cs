@@ -61,6 +61,10 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
+    public void ShowcaseMenu(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 6);
+    }
+
     public void TryGameAgain(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
     }
@@ -83,6 +87,30 @@ public class GameManager : MonoBehaviour
 
     public void ReturnFromShowcase(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 6);
+    }
+
+    public void AllTeamsShowcase(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+    }
+
+    public void AFCTeamsShowcase(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+    }
+
+    public void NFCTeamsShowcase(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+    }
+
+    public void ReturnFromAllTeamsShowcase(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+    }
+
+    public void ReturnFromAFCTeamsShowcase(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
+
+    public void ReturnFromNFCTeamsShowcase(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
     }
 
 }

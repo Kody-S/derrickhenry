@@ -464,7 +464,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -785, y: 31}
+  m_AnchoredPosition: {x: -814, y: -164}
   m_SizeDelta: {x: 260.806, y: 54.7995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &270570222
@@ -488,7 +488,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.09411765, g: 0.105882354, b: 0.16862746, a: 1}
+    m_NormalColor: {r: 0.5019608, g: 0.6784314, b: 0.8666667, a: 1}
     m_HighlightedColor: {r: 0.81960785, g: 0.05490196, b: 0.11764706, a: 1}
     m_PressedColor: {r: 0.81960785, g: 0.05490196, b: 0.11764706, a: 1}
     m_SelectedColor: {r: 0.81960785, g: 0.05490196, b: 0.11764706, a: 1}
@@ -513,7 +513,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 59599405}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: ReturnFromShowcase
+        m_MethodName: AFCTeamsShowcase
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -598,7 +598,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -785, y: 380}
+  m_AnchoredPosition: {x: -814, y: 380}
   m_SizeDelta: {x: 260.806, y: 54.7995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &655254775
@@ -622,7 +622,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.09411765, g: 0.105882354, b: 0.16862746, a: 1}
+    m_NormalColor: {r: 0.5019608, g: 0.6784314, b: 0.8666667, a: 1}
     m_HighlightedColor: {r: 0.87058824, g: 0.1764706, b: 0.2, a: 1}
     m_PressedColor: {r: 0.87058824, g: 0.1764706, b: 0.2, a: 1}
     m_SelectedColor: {r: 0.87058824, g: 0.1764706, b: 0.2, a: 1}
@@ -1244,7 +1244,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -785, y: -65}
+  m_AnchoredPosition: {x: -814, y: -260}
   m_SizeDelta: {x: 260.806, y: 54.7995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1525368449
@@ -1268,7 +1268,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.09411765, g: 0.105882354, b: 0.16862746, a: 1}
+    m_NormalColor: {r: 0.5019608, g: 0.6784314, b: 0.8666667, a: 1}
     m_HighlightedColor: {r: 0, g: 0.22745098, b: 0.40784314, a: 1}
     m_PressedColor: {r: 0, g: 0.22745098, b: 0.40784314, a: 1}
     m_SelectedColor: {r: 0, g: 0.22745098, b: 0.40784314, a: 1}
@@ -1293,7 +1293,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 59599405}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: ReturnFromShowcase
+        m_MethodName: NFCTeamsShowcase
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1368,7 +1368,7 @@ RectTransform:
   m_GameObject: {fileID: 1698733283}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 20.474335, y: 15.481455, z: 0.32825}
+  m_LocalScale: {x: 20.470577, y: 11.313847, z: 0.32825}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 875513641}
@@ -1376,7 +1376,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -55, y: -666}
+  m_AnchoredPosition: {x: 55, y: -509}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1698733285
@@ -1399,7 +1399,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3782fd2d1e7bccd4781cdb267be77619, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bd103730ac731794e89d438266e407c0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1454,7 +1454,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -785, y: 127}
+  m_AnchoredPosition: {x: -814, y: -68}
   m_SizeDelta: {x: 260.806, y: 54.7995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2042331480
@@ -1478,7 +1478,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.09411765, g: 0.105882354, b: 0.16862746, a: 1}
+    m_NormalColor: {r: 0.5019608, g: 0.6784314, b: 0.8666667, a: 1}
     m_HighlightedColor: {r: 0.007843138, g: 0.011764706, b: 0.019607844, a: 1}
     m_PressedColor: {r: 0.007843138, g: 0.011764706, b: 0.019607844, a: 1}
     m_SelectedColor: {r: 0.007843138, g: 0.011764706, b: 0.019607844, a: 1}
@@ -1503,7 +1503,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 59599405}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: ReturnFromShowcase
+        m_MethodName: AllTeamsShowcase
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
