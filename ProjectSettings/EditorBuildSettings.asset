@@ -53,4 +53,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NFC Teams Showcase.unity
     guid: 16fbca23a926f3148b166e115d4ba603
+  - enabled: 1
+    path: Assets/Scenes/You Score Cover 1.unity
+    guid: bccfada63469cba498e894ece103c904
+  - enabled: 1
+    path: Assets/Scenes/You Score Cover 2.unity
+    guid: d364b510bc25002409659de20bac94a5
+  - enabled: 1
+    path: Assets/Scenes/You Score Cover 3.unity
+    guid: f291e9cad5b31eb48bdbaf8ba8e031c7
   m_configObjects: {}
