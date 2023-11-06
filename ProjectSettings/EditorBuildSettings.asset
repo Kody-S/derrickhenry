@@ -6,60 +6,156 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Game Scene 1(W.C).unity
+    path: Assets/Scenes/Game Scenes/Game Scene 1(W.C).unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Conference Championship Cover.unity
+    path: Assets/Scenes/Level Covers/Conference Championship Cover.unity
     guid: b1e67db5f00cc154a8d81851d5ecf719
   - enabled: 1
-    path: Assets/Scenes/Divisional Round Cover.unity
+    path: Assets/Scenes/Level Covers/Divisional Round Cover.unity
     guid: 89f652e0dc767dd488969a4a879eeb6b
   - enabled: 1
-    path: Assets/Scenes/Game Scene 2(D.R).unity
+    path: Assets/Scenes/Game Scenes/Game Scene 2(D.R).unity
     guid: 6f7f5894f6cc03d44b6059a082845b70
   - enabled: 1
-    path: Assets/Scenes/Game Scene 3(C.C).unity
+    path: Assets/Scenes/Game Scenes/Game Scene 3(C.C).unity
     guid: 3135d1bf4fe9514418e2c9a4eb9384d9
   - enabled: 1
-    path: Assets/Scenes/Game Scene 4(S.B).unity
+    path: Assets/Scenes/Game Scenes/Game Scene 4(S.B).unity
     guid: a77bfd9c339f3ec48be8a04ac0fd821a
   - enabled: 1
-    path: Assets/Scenes/Opening Cover.unity
+    path: Assets/Scenes/Opening, Settings Covers/Opening Cover.unity
     guid: 7e20b4ec123f75d44ac20f7edbca55d8
   - enabled: 1
-    path: Assets/Scenes/Settings Cover.unity
+    path: Assets/Scenes/Opening, Settings Covers/Settings Cover.unity
     guid: b3001471b483e6947b41daf74d3c953a
   - enabled: 1
-    path: Assets/Scenes/Super Bowl Cover.unity
+    path: Assets/Scenes/Level Covers/Super Bowl Cover.unity
     guid: 31bde7bfdf4b7dc4ba96bfead6ab6092
   - enabled: 1
-    path: Assets/Scenes/Wild Card Cover.unity
+    path: Assets/Scenes/Level Covers/Wild Card Cover.unity
     guid: f1e2da8740660624da6bd12a876441a5
   - enabled: 1
-    path: Assets/Scenes/You Lose Cover.unity
+    path: Assets/Scenes/Win, Lose Covers/You Lose Cover.unity
     guid: ed566d058722cf04085397808b3f43c3
   - enabled: 1
-    path: Assets/Scenes/You Win Cover.unity
+    path: Assets/Scenes/Win, Lose Covers/You Win Cover.unity
     guid: f05db13402e709e438990c6463ee1333
   - enabled: 1
-    path: Assets/Scenes/Showcase Cover.unity
+    path: Assets/Scenes/Showcase/Showcase Cover.unity
     guid: a71469edfd6465349aae9e3bbb169608
   - enabled: 1
-    path: Assets/Scenes/AFC Teams Showcase.unity
+    path: Assets/Scenes/Showcase/AFC Teams Showcase.unity
     guid: 8150c824530ff4940a3888e586c4f74b
   - enabled: 1
-    path: Assets/Scenes/All Teams Showcase.unity
+    path: Assets/Scenes/Showcase/All Teams Showcase.unity
     guid: 618fe307a612b9a4da5cf7d2ead979dc
   - enabled: 1
-    path: Assets/Scenes/NFC Teams Showcase.unity
+    path: Assets/Scenes/Showcase/NFC Teams Showcase.unity
     guid: 16fbca23a926f3148b166e115d4ba603
   - enabled: 1
-    path: Assets/Scenes/You Score Cover 1.unity
+    path: Assets/Scenes/Score Covers/You Score Cover 1.unity
     guid: bccfada63469cba498e894ece103c904
   - enabled: 1
-    path: Assets/Scenes/You Score Cover 2.unity
+    path: Assets/Scenes/Score Covers/You Score Cover 2.unity
     guid: d364b510bc25002409659de20bac94a5
   - enabled: 1
-    path: Assets/Scenes/You Score Cover 3.unity
+    path: Assets/Scenes/Score Covers/You Score Cover 3.unity
     guid: f291e9cad5b31eb48bdbaf8ba8e031c7
+  - enabled: 1
+    path: Assets/Scenes/Teams/AFC East/Bills.unity
+    guid: 15d796cb51b57184aaac01b44e47fb52
+  - enabled: 1
+    path: Assets/Scenes/Teams/AFC East/Dolphins.unity
+    guid: af1f759f2f54569449619f4d1a797aae
+  - enabled: 1
+    path: Assets/Scenes/Teams/AFC East/Jets.unity
+    guid: bf1b75be7dcb20441a4fff42364aa3c7
+  - enabled: 1
+    path: Assets/Scenes/Teams/AFC East/Patriots.unity
+    guid: 182fdc280c38fe94d9388cebd5eb7350
+  - enabled: 1
+    path: Assets/Scenes/Teams/AFC North/Bengals.unity
+    guid: cd9f36481ff1f5940891e8ff5f944a07
+  - enabled: 1
+    path: Assets/Scenes/Teams/AFC North/Browns.unity
+    guid: e56fea70474c0004b9f6956ea787cabc
+  - enabled: 1
+    path: Assets/Scenes/Teams/AFC North/Ravens.unity
+    guid: 93fbd6d84c4df814e958ffc2a202da28
+  - enabled: 1
+    path: Assets/Scenes/Teams/AFC North/Steelers.unity
+    guid: 9496abe646922094b855e541473fa8cb
+  - enabled: 1
+    path: Assets/Scenes/Teams/AFC South/Colts.unity
+    guid: 65e7e2691bef2634a864d4fa1409b4ec
+  - enabled: 1
+    path: Assets/Scenes/Teams/AFC South/Jaguars.unity
+    guid: cd6afc0d9d5196c488810e45af65fedf
+  - enabled: 1
+    path: Assets/Scenes/Teams/AFC South/Texans.unity
+    guid: e44fe2060efa96a44b138abc2470afcc
+  - enabled: 1
+    path: Assets/Scenes/Teams/AFC South/Titans.unity
+    guid: 3b5e733921249d74992a74485bbabd9b
+  - enabled: 1
+    path: Assets/Scenes/Teams/AFC West/Broncos.unity
+    guid: 5581e7312d939fb45b5bf4e99569cc44
+  - enabled: 1
+    path: Assets/Scenes/Teams/AFC West/Chargers.unity
+    guid: fe5252f0ba5d5f7478ff8800eaea5a55
+  - enabled: 1
+    path: Assets/Scenes/Teams/AFC West/Chiefs.unity
+    guid: df7cd6e7b041acd4c9fd6625db828403
+  - enabled: 1
+    path: Assets/Scenes/Teams/AFC West/Raiders.unity
+    guid: 3be530ff0662a1341ac3344838bddf32
+  - enabled: 1
+    path: Assets/Scenes/Teams/NFC East/Commanders.unity
+    guid: b35a78de6598d344e9679dd5a61fe98a
+  - enabled: 1
+    path: Assets/Scenes/Teams/NFC East/Cowboys.unity
+    guid: bd6ac0de23a5a68419d49ac74a0b5406
+  - enabled: 1
+    path: Assets/Scenes/Teams/NFC East/Eagles.unity
+    guid: dc66df0e90cbebe48900e44d87a79eaf
+  - enabled: 1
+    path: Assets/Scenes/Teams/NFC East/Giants.unity
+    guid: 963a2ce17b6886b449588df76639db5b
+  - enabled: 1
+    path: Assets/Scenes/Teams/NFC North/Bears.unity
+    guid: 85a9f71ac5fbc8e43ab95f8184459e6e
+  - enabled: 1
+    path: Assets/Scenes/Teams/NFC North/Lions.unity
+    guid: 3149bed31928845488742e3c74218341
+  - enabled: 1
+    path: Assets/Scenes/Teams/NFC North/Packers.unity
+    guid: 319c1950b87f31f40907f09eb20b321f
+  - enabled: 1
+    path: Assets/Scenes/Teams/NFC North/Vikings.unity
+    guid: d0397b79d0a2d53409e64a5509777267
+  - enabled: 1
+    path: Assets/Scenes/Teams/NFC South/Buccaneers.unity
+    guid: 98120e92ed74b374ea5e9d2348934602
+  - enabled: 1
+    path: Assets/Scenes/Teams/NFC South/Falcons.unity
+    guid: a448565d7a9055e49b186140f51c6625
+  - enabled: 1
+    path: Assets/Scenes/Teams/NFC South/Panthers.unity
+    guid: 95588f2d261d59d4cb267e7049de26c2
+  - enabled: 1
+    path: Assets/Scenes/Teams/NFC South/Saints.unity
+    guid: 93b2206c74132d04f98b9853a5b62347
+  - enabled: 1
+    path: Assets/Scenes/Teams/NFC West/49ers.unity
+    guid: 2bb673fcb5a353e40ae3088a0ee3810f
+  - enabled: 1
+    path: Assets/Scenes/Teams/NFC West/Cardinals.unity
+    guid: 258daff320bab6b48bca8b50601e23e5
+  - enabled: 1
+    path: Assets/Scenes/Teams/NFC West/Rams.unity
+    guid: 8997ca6cd80f3ff449ad67feb828f0d8
+  - enabled: 1
+    path: Assets/Scenes/Teams/NFC West/Seahawks.unity
+    guid: d3be45e05a5412748bbf79e987ba6114
   m_configObjects: {}
