@@ -387,142 +387,265 @@ public class GameManager : MonoBehaviour
 // GO TO TEAMS FROM AFC SHOWCASE //
 
 public void GoToBillsAFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 6);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 38);
 }
 
 public void GoToDolphinsAFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 7);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 39);
 }
 
 public void GoToJetsAFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 8);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 40);
 }
 
 public void GoToPatriotsAFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 9);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 41);
 }
 
 public void GoToBengalsAFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 10);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 42);
 }
 
 public void GoToBrownsAFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 11);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 43);
 }
 
 public void GoToRavensAFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 12);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 44);
 }
 
 public void GoToSteelersAFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 13);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 45);
 }
 
 public void GoToColtsAFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 14);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 46);
 }
 
 public void GoToJaguarsAFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 15);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 47);
 }
 
 public void GoToTexansAFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 16);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 48);
 }
 
 public void GoToTitansAFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 17);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 49);
 }
 
 public void GoToBroncosAFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 18);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 50);
 }
 
 public void GoToChargersAFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 19);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 51);
 }
 
 public void GoToChiefsAFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 20);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 52);
 }
 
 public void GoToRaidersAFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 21);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 53);
 }
 
 // GO TO TEAMS FROM NFC SHOWCASE //
 
 public void GoToCommandersNFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 20);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 52);
 }
 
 public void GoToCowboysNFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 21);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 53);
 }
 
 public void GoToEaglesNFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 22);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 54);
 }
 
 public void GoToGiantsNFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 23);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 55);
 }
 
 public void GoToBearsNFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 24);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 56);
 }
 
 public void GoToLionsNFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 25);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 57);
 }
 
 public void GoToPackersNFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 26);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 58);
 }
 
 public void GoToVikingsNFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 27);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 59);
 }
 
 public void GoToBuccaneersNFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 28);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 60);
 }
 
 public void GoToFalconsNFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 29);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 61);
 }
 
 public void GoToPanthersNFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 30);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 62);
 }
 
 public void GoToSaintsNFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 31);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 63);
 }
 
 public void GoTo49ersNFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 32);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 64);
 }
 
 public void GoToCardinalsNFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 33);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 65);
 }
 
 public void GoToRamsNFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 34);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 66);
 }
 
 public void GoToSeahawksNFC(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 35);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 67);
 }
 
 // RETURN TO THE AFC SHOWCASE FROM TEAMS //
+public void ReturnToAFCFromBills(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 38);
+}
 
+public void ReturnToAFCFromDolphins(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 39);
+}
+
+public void ReturnToAFCFromJets(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 40);
+}
+
+public void ReturnToAFCFromPatriots(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 41);
+}
+
+public void ReturnToAFCFromBengals(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 42);
+}
+
+public void ReturnToAFCFromBrowns(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 43);
+}
+
+public void ReturnToAFCFromRavens(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 44);
+}
+
+public void ReturnToAFCFromSteelers(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 45);
+}
+
+public void ReturnToAFCFromColts(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 46);
+}
+
+public void ReturnToAFCFromJaguars(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 47);
+}
+
+public void ReturnToAFCFromTexans(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 48);
+}
+
+public void ReturnToAFCFromTitans(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 49);
+}
+
+public void ReturnToAFCFromBroncos(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 50);
+}
+
+public void ReturnToAFCFromChargers(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 51);
+}
+
+public void ReturnToAFCFromChiefs(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 52);
+}
+
+public void ReturnToAFCFromRaiders(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 53);
+}
 
 
 // RETURN TO THE NFC SHOWCASE FROM TEAMS //
+public void ReturnToNFCFromCommanders(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 52);
+}
 
+public void ReturnToNFCFromCowboys(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 53);
+}
 
+public void ReturnToNFCFromEagles(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 54);
+}
+
+public void ReturnToNFCFromGiants(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 55);
+}
+
+public void ReturnToNFCFromBears(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 56);
+}
+
+public void ReturnToNFCFromLions(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 57);
+}
+
+public void ReturnToNFCFromPackers(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 58);
+}
+
+public void ReturnToNFCFromVikings(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 59);
+}
+
+public void ReturnToNFCFromBuccaneers(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 60);
+}
+
+public void ReturnToNFCFromFalcons(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 61);
+}
+
+public void ReturnToNFCFromPanthers(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 62);
+}
+
+public void ReturnToNFCFromSaints(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 63);
+}
+
+public void ReturnToNFCFrom49ers(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 64);
+}
+
+public void ReturnToNFCFromCardinals(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 65);
+}
+
+public void ReturnToNFCFromRams(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 66);
+}
+
+public void ReturnToNFCFromSeahawks(){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 67);
+}
 
 
 }
