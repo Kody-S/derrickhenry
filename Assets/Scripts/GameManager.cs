@@ -66,7 +66,19 @@ public class GameManager : MonoBehaviour
     }
 
     public void TryGameAgain(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 10);
+    }
+
+    public void TryGameAgain2(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene(). buildIndex - 80);
+    }
+
+    public void TryGameAgain3(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 80);
+    }
+
+    public void TryGameAgain4(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 80);
     }
 
     public void FirstLevel(){

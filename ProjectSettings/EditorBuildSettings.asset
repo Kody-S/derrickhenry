@@ -254,4 +254,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Teams/NFC West/Seahawks 2.unity
     guid: bd5ed31c94b297b4aad03820707920e8
+  - enabled: 1
+    path: Assets/Scenes/Win, Lose Covers/You Lose Cover 2.unity
+    guid: 8cd0d637077394a4b94f95cb449637da
+  - enabled: 1
+    path: Assets/Scenes/Win, Lose Covers/You Lose Cover 3.unity
+    guid: 535df44632a2bc949bd832e50ea29e17
+  - enabled: 1
+    path: Assets/Scenes/Win, Lose Covers/You Lose Cover 4.unity
+    guid: 37c6966c7454f9a4a9653d553ac3b781
   m_configObjects: {}

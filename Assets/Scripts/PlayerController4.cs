@@ -82,7 +82,7 @@ public class PlayerController4 : MonoBehaviour
             Debug.Log("Collided with " + collision.gameObject.name + " with football " + hasFootball);
             gameOver = true;
             Debug.Log("Game Over!");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 5);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 80);
         }
 
     }
