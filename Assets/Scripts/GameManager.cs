@@ -52,6 +52,22 @@ public class GameManager : MonoBehaviour
     public void ReturnHomeFromWin(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5);
     }
+
+    public void ReturnFromLose1(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
+    }
+
+    public void ReturnFromLose2(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 77);
+    }
+
+    public void ReturnFromLose3(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 78);
+    }
+
+    public void ReturnFromLose4(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 79);
+    }
     
     public void StartGame(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
