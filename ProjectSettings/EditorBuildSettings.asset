@@ -63,196 +63,196 @@ EditorBuildSettings:
     path: Assets/Scenes/Score Covers/You Score Cover 3.unity
     guid: f291e9cad5b31eb48bdbaf8ba8e031c7
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC East/Bills.unity
+    path: Assets/Scenes/Teams/AFC/AFC East/Bills.unity
     guid: 15d796cb51b57184aaac01b44e47fb52
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC East/Dolphins.unity
+    path: Assets/Scenes/Teams/AFC/AFC East/Dolphins.unity
     guid: af1f759f2f54569449619f4d1a797aae
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC East/Jets.unity
+    path: Assets/Scenes/Teams/AFC/AFC East/Jets.unity
     guid: bf1b75be7dcb20441a4fff42364aa3c7
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC East/Patriots.unity
+    path: Assets/Scenes/Teams/AFC/AFC East/Patriots.unity
     guid: 182fdc280c38fe94d9388cebd5eb7350
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC North/Bengals.unity
+    path: Assets/Scenes/Teams/AFC/AFC North/Bengals.unity
     guid: cd9f36481ff1f5940891e8ff5f944a07
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC North/Browns.unity
+    path: Assets/Scenes/Teams/AFC/AFC North/Browns.unity
     guid: e56fea70474c0004b9f6956ea787cabc
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC North/Ravens.unity
+    path: Assets/Scenes/Teams/AFC/AFC North/Ravens.unity
     guid: 93fbd6d84c4df814e958ffc2a202da28
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC North/Steelers.unity
+    path: Assets/Scenes/Teams/AFC/AFC North/Steelers.unity
     guid: 9496abe646922094b855e541473fa8cb
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC South/Colts.unity
+    path: Assets/Scenes/Teams/AFC/AFC South/Colts.unity
     guid: 65e7e2691bef2634a864d4fa1409b4ec
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC South/Jaguars.unity
+    path: Assets/Scenes/Teams/AFC/AFC South/Jaguars.unity
     guid: cd6afc0d9d5196c488810e45af65fedf
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC South/Texans.unity
+    path: Assets/Scenes/Teams/AFC/AFC South/Texans.unity
     guid: e44fe2060efa96a44b138abc2470afcc
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC South/Titans.unity
+    path: Assets/Scenes/Teams/AFC/AFC South/Titans.unity
     guid: 3b5e733921249d74992a74485bbabd9b
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC West/Broncos.unity
+    path: Assets/Scenes/Teams/AFC/AFC West/Broncos.unity
     guid: 5581e7312d939fb45b5bf4e99569cc44
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC West/Chargers.unity
+    path: Assets/Scenes/Teams/AFC/AFC West/Chargers.unity
     guid: fe5252f0ba5d5f7478ff8800eaea5a55
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC West/Chiefs.unity
+    path: Assets/Scenes/Teams/AFC/AFC West/Chiefs.unity
     guid: df7cd6e7b041acd4c9fd6625db828403
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC West/Raiders.unity
+    path: Assets/Scenes/Teams/AFC/AFC West/Raiders.unity
     guid: 3be530ff0662a1341ac3344838bddf32
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC East/Commanders.unity
+    path: Assets/Scenes/Teams/NFC/NFC East/Commanders.unity
     guid: b35a78de6598d344e9679dd5a61fe98a
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC East/Cowboys.unity
+    path: Assets/Scenes/Teams/NFC/NFC East/Cowboys.unity
     guid: bd6ac0de23a5a68419d49ac74a0b5406
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC East/Eagles.unity
+    path: Assets/Scenes/Teams/NFC/NFC East/Eagles.unity
     guid: dc66df0e90cbebe48900e44d87a79eaf
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC East/Giants.unity
+    path: Assets/Scenes/Teams/NFC/NFC East/Giants.unity
     guid: 963a2ce17b6886b449588df76639db5b
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC North/Bears.unity
+    path: Assets/Scenes/Teams/NFC/NFC North/Bears.unity
     guid: 85a9f71ac5fbc8e43ab95f8184459e6e
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC North/Lions.unity
+    path: Assets/Scenes/Teams/NFC/NFC North/Lions.unity
     guid: 3149bed31928845488742e3c74218341
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC North/Packers.unity
+    path: Assets/Scenes/Teams/NFC/NFC North/Packers.unity
     guid: 319c1950b87f31f40907f09eb20b321f
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC North/Vikings.unity
+    path: Assets/Scenes/Teams/NFC/NFC North/Vikings.unity
     guid: d0397b79d0a2d53409e64a5509777267
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC South/Buccaneers.unity
+    path: Assets/Scenes/Teams/NFC/NFC South/Buccaneers.unity
     guid: 98120e92ed74b374ea5e9d2348934602
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC South/Falcons.unity
+    path: Assets/Scenes/Teams/NFC/NFC South/Falcons.unity
     guid: a448565d7a9055e49b186140f51c6625
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC South/Panthers.unity
+    path: Assets/Scenes/Teams/NFC/NFC South/Panthers.unity
     guid: 95588f2d261d59d4cb267e7049de26c2
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC South/Saints.unity
+    path: Assets/Scenes/Teams/NFC/NFC South/Saints.unity
     guid: 93b2206c74132d04f98b9853a5b62347
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC West/49ers.unity
+    path: Assets/Scenes/Teams/NFC/NFC West/49ers.unity
     guid: 2bb673fcb5a353e40ae3088a0ee3810f
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC West/Cardinals.unity
+    path: Assets/Scenes/Teams/NFC/NFC West/Cardinals.unity
     guid: 258daff320bab6b48bca8b50601e23e5
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC West/Rams.unity
+    path: Assets/Scenes/Teams/NFC/NFC West/Rams.unity
     guid: 8997ca6cd80f3ff449ad67feb828f0d8
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC West/Seahawks.unity
+    path: Assets/Scenes/Teams/NFC/NFC West/Seahawks.unity
     guid: d3be45e05a5412748bbf79e987ba6114
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC East/Bills 2.unity
+    path: Assets/Scenes/Teams/AFC/AFC East/Bills 2.unity
     guid: b5dddb3599a66844c899f65c93658087
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC East/Dolphins 2.unity
+    path: Assets/Scenes/Teams/AFC/AFC East/Dolphins 2.unity
     guid: c5f0f834e18b0fd4d9624168498ce1a0
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC East/Jets 2.unity
+    path: Assets/Scenes/Teams/AFC/AFC East/Jets 2.unity
     guid: da6aff09ab8739d4fbd57c58985c7043
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC East/Patriots 2.unity
+    path: Assets/Scenes/Teams/AFC/AFC East/Patriots 2.unity
     guid: 947ce651f46160e4991943560e90ebef
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC North/Bengals 2.unity
+    path: Assets/Scenes/Teams/AFC/AFC North/Bengals 2.unity
     guid: 9aaade8cc5a07014eb98d2a24b92acb7
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC North/Browns 2.unity
+    path: Assets/Scenes/Teams/AFC/AFC North/Browns 2.unity
     guid: 7e9d489b6d7de6947b98796228d16943
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC North/Ravens 2.unity
+    path: Assets/Scenes/Teams/AFC/AFC North/Ravens 2.unity
     guid: bb4d9b8b7081b9c448295ece5e6a4304
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC North/Steelers 2.unity
+    path: Assets/Scenes/Teams/AFC/AFC North/Steelers 2.unity
     guid: 6095caa8954046b4ebe04aa5e1070adf
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC South/Colts 2.unity
+    path: Assets/Scenes/Teams/AFC/AFC South/Colts 2.unity
     guid: 93ca741a500ecc04cbbc41b6e0e76d80
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC South/Jaguars 2.unity
+    path: Assets/Scenes/Teams/AFC/AFC South/Jaguars 2.unity
     guid: 413d3052dd1f9f54399e167d7dd3cb16
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC South/Texans 2.unity
+    path: Assets/Scenes/Teams/AFC/AFC South/Texans 2.unity
     guid: 05cf304fc003ec3488ef86acdf80df27
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC South/Titans 2.unity
+    path: Assets/Scenes/Teams/AFC/AFC South/Titans 2.unity
     guid: 7cb909d80727a964c9ec6f39cb14c42e
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC West/Broncos 2.unity
+    path: Assets/Scenes/Teams/AFC/AFC West/Broncos 2.unity
     guid: dace7a3649b46ef4abe8872014744e2f
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC West/Chargers 2.unity
+    path: Assets/Scenes/Teams/AFC/AFC West/Chargers 2.unity
     guid: f2c37cbd75e66174ab827c63f076a019
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC West/Chiefs 2.unity
+    path: Assets/Scenes/Teams/AFC/AFC West/Chiefs 2.unity
     guid: 5885c38699cc65d44999dd23f402cbf3
   - enabled: 1
-    path: Assets/Scenes/Teams/AFC West/Raiders 2.unity
+    path: Assets/Scenes/Teams/AFC/AFC West/Raiders 2.unity
     guid: 145b97c5c9fb0c84d91d736c7ff0799d
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC East/Commanders 2.unity
+    path: Assets/Scenes/Teams/NFC/NFC East/Commanders 2.unity
     guid: ac8b7b2bd232c3a408b2b203440b2156
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC East/Cowboys 2.unity
+    path: Assets/Scenes/Teams/NFC/NFC East/Cowboys 2.unity
     guid: 2b38dbcadf7d1d943ab50bc6c9d85ae4
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC East/Eagles 2.unity
+    path: Assets/Scenes/Teams/NFC/NFC East/Eagles 2.unity
     guid: 021ce753b4bfe7b4f8a155abb4643c73
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC East/Giants 2.unity
+    path: Assets/Scenes/Teams/NFC/NFC East/Giants 2.unity
     guid: e783562c9763c9e4ea3d90d5dd96f757
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC North/Bears 2.unity
+    path: Assets/Scenes/Teams/NFC/NFC North/Bears 2.unity
     guid: 7c7268c0dbbd0d44f90325f9a4e824f8
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC North/Lions 2.unity
+    path: Assets/Scenes/Teams/NFC/NFC North/Lions 2.unity
     guid: ca8ef3d572b40d14885da90410c9fd69
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC North/Packers 2.unity
+    path: Assets/Scenes/Teams/NFC/NFC North/Packers 2.unity
     guid: 44d6b9f123241f5459295cdb174a80ad
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC North/Vikings 2.unity
+    path: Assets/Scenes/Teams/NFC/NFC North/Vikings 2.unity
     guid: a31030e715ee8f74991253ce0bfd1bf4
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC South/Buccaneers 2.unity
+    path: Assets/Scenes/Teams/NFC/NFC South/Buccaneers 2.unity
     guid: 401f3c3d1f1c1664da65812d5493fe92
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC South/Falcons 2.unity
+    path: Assets/Scenes/Teams/NFC/NFC South/Falcons 2.unity
     guid: c900d157da489e544b3456bad4368bee
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC South/Panthers 2.unity
+    path: Assets/Scenes/Teams/NFC/NFC South/Panthers 2.unity
     guid: 8b005c8a9a5afcf4e98b5dfd3dabe1ef
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC South/Saints 2.unity
+    path: Assets/Scenes/Teams/NFC/NFC South/Saints 2.unity
     guid: 0e7ab79e2005b4c48b7c71dd502b8cb0
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC West/49ers 2.unity
+    path: Assets/Scenes/Teams/NFC/NFC West/49ers 2.unity
     guid: 6debf41ccc60c7a40a275bde55559c81
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC West/Cardinals 2.unity
+    path: Assets/Scenes/Teams/NFC/NFC West/Cardinals 2.unity
     guid: 9a150ffba7221134a9661b2632f7af1c
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC West/Rams 2.unity
+    path: Assets/Scenes/Teams/NFC/NFC West/Rams 2.unity
     guid: 0f0b3219f673de4499a7f8f869491440
   - enabled: 1
-    path: Assets/Scenes/Teams/NFC West/Seahawks 2.unity
+    path: Assets/Scenes/Teams/NFC/NFC West/Seahawks 2.unity
     guid: bd5ed31c94b297b4aad03820707920e8
   - enabled: 1
     path: Assets/Scenes/Win, Lose Covers/You Lose Cover 2.unity
