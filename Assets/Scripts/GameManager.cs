@@ -53,6 +53,14 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5);
     }
 
+    public void LevelSelect(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 80);
+    }
+
+    public void ReturnFromLevelSelect(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 80);
+    }
+    
     public void ReturnFromLose1(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
     }
