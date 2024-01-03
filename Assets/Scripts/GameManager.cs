@@ -57,6 +57,22 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 80);
     }
 
+    public void GoToWildCardFromLevelSelect(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 86);
+    }
+
+    public void GoToDivisionalRoundFromLevelSelect(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 83);
+    }
+
+    public void GoToConferenceChampionshipFromLevelSelect(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 82);
+    }
+
+    public void GoToSuperBowlFromLevelSelect(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 81);
+    }
+
     public void ReturnFromLevelSelect(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 80);
     }
