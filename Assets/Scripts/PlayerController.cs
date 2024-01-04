@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
     private bool gameOver = false;
     public float gatoradeSpeed;
     public float pepsiSpeed;
+    public AudioClip collectSound;
     // Start is called before the first frame update
     void Start()
     {
