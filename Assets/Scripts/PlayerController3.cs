@@ -24,6 +24,8 @@ public class PlayerController3 : MonoBehaviour
     public float gatoradeSpeed;
     public float pepsiSpeed;
     public AudioClip collectSound;
+    private AudioSource playerAudio;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -67,6 +69,7 @@ public class PlayerController3 : MonoBehaviour
             moveSpeed = gatoradeSpeed;
             Destroy(other.gameObject);
             //StartCoroutine(PowerupCountdownRoutine());
+            playerAudio.PlayOneShot(collectSound, 1.0f);
         }
         if (other.CompareTag("Pepsi")){
             hasPepsi = true;
@@ -75,6 +78,8 @@ public class PlayerController3 : MonoBehaviour
             moveSpeed = pepsiSpeed;
             Destroy(other.gameObject);
             //StartCoroutine(PowerupCountdownRoutine());
+            playerAudio.PlayOneShot(collectSound, 1.0f);
+
         }
     }
 

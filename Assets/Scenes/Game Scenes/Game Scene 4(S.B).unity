@@ -2138,6 +2138,7 @@ MonoBehaviour:
   footballIndicator: {fileID: 1899771934}
   gatoradeSpeed: 0
   pepsiSpeed: 0
+  collectSound: {fileID: 0}
 --- !u!54 &743880686
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2255,6 +2256,7 @@ MonoBehaviour:
   footballIndicator: {fileID: 1899771934}
   gatoradeSpeed: 0
   pepsiSpeed: 0
+  collectSound: {fileID: 8300000, guid: d36535e075eb8d54a890ed5cad010384, type: 3}
 --- !u!1 &759456053
 GameObject:
   m_ObjectHideFlags: 0
