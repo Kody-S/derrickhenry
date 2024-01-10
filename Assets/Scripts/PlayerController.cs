@@ -89,6 +89,11 @@ public class PlayerController : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 10);
         }
 
+        if (collision.gameObject.CompareTag("Endzone") && hasFootball){
+            Debug.Log("You Win!");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 11);
+        }
+
     }
     private void OnCollisionEnter(Collider collision){
         if (!gameObject.CompareTag("Enemy")){
