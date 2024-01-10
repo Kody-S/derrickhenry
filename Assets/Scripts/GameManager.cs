@@ -73,8 +73,32 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 81);
     }
 
+    public void GoToPlayAsEnemyMenu(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void ReturnFromPlayAsEnemy(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
+
     public void ReturnFromLevelSelect(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 80);
+    }
+
+    public void GoToEnemyScene1(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void GoToEnemyScene2(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+    }
+
+    public void GoToEnemyScene3(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+    }
+
+    public void GoToEnemyScene4(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
     }
     
     public void ReturnFromLose1(){
