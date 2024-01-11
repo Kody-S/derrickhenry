@@ -100,6 +100,10 @@ public class GameManager : MonoBehaviour
     public void GoToEnemyScene4(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
     }
+
+    public void RestartFromNiceTry(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 86);
+    }
     
     public void ReturnFromLose1(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
