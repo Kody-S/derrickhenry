@@ -90,6 +90,16 @@ public class PlayerController2 : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 80);
         }
 
+        if (collision.gameObject.CompareTag("Endzone") && hasFootball){
+            Debug.Log("You Win!");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 14);
+        }
+
+        if (collision.gameObject.CompareTag("Endzone") &! hasFootball){
+            Debug.Log("Nice Try!");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 89);
+        }
+
     }
 
 }
