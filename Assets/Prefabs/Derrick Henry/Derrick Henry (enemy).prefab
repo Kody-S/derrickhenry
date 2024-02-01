@@ -43,7 +43,6 @@ GameObject:
   - component: {fileID: 2511459039877486484}
   - component: {fileID: 3999901235661072914}
   - component: {fileID: 7205950263077960719}
-  - component: {fileID: 6153588813421331530}
   - component: {fileID: 8363101848608117229}
   - component: {fileID: 7181065834066952078}
   - component: {fileID: 3854597576395882841}
@@ -163,32 +162,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &6153588813421331530
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3873052276299239695}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 540525d04e0748948941fedf769a855e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  theRB: {fileID: 7205950263077960719}
-  moveSpeed: 5.5
-  jumpForce: 6
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 8
-  groundPoint: {fileID: 1804134417115177369}
-  hasFootball: 0
-  hasGatorade: 0
-  hasPepsi: 0
-  footballIndicator: {fileID: 0}
-  gatoradeSpeed: 0
-  pepsiSpeed: 0
-  collectSound: {fileID: 8300000, guid: d36535e075eb8d54a890ed5cad010384, type: 3}
 --- !u!95 &8363101848608117229
 Animator:
   serializedVersion: 5
