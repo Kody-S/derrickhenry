@@ -10,7 +10,7 @@ public class PlayerController3 : MonoBehaviour
     GameManager gameManager;
     public Rigidbody theRB;
     public float moveSpeed, jumpForce;
-
+// :3 - nolan
     private Vector2 moveInput;
 
     public LayerMask whatIsGround;
@@ -89,6 +89,16 @@ public class PlayerController3 : MonoBehaviour
             gameOver = true;
             Debug.Log("Game Over!");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 80);
+        }
+
+        if (collision.gameObject.CompareTag("Endzone") && hasFootball){
+            Debug.Log("You Win!");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 14);
+        }
+
+        if (collision.gameObject.CompareTag("Endzone") &! hasFootball){
+            Debug.Log("Nice Try!");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 88);
         }
 
     }
