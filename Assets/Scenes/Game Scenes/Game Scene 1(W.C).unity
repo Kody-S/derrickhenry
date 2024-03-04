@@ -5562,6 +5562,7 @@ MonoBehaviour:
   collectables:
   - {fileID: 7290239346403864138, guid: 93b0bfa0e8082194d8904d79483c36cd, type: 3}
   - {fileID: 7818506252204037872, guid: f88d1a7263e3653498677b6c767a3fe0, type: 3}
+  - {fileID: 0}
   gameOverText: {fileID: 678209777}
   isGameActive: 0
 --- !u!4 &1912916342
