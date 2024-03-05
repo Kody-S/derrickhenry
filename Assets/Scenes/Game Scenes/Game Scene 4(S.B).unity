@@ -420,7 +420,7 @@ MonoBehaviour:
   collectables:
   - {fileID: 7290239346403864138, guid: 93b0bfa0e8082194d8904d79483c36cd, type: 3}
   - {fileID: 7818506252204037872, guid: f88d1a7263e3653498677b6c767a3fe0, type: 3}
-  - {fileID: 0}
+  - {fileID: 3090780160576233144, guid: c98bf5a54e9f28e428bbbd5babce9864, type: 3}
   gameOverText: {fileID: 704453707}
   isGameActive: 0
 --- !u!4 &155642548
@@ -2228,6 +2228,7 @@ MonoBehaviour:
   hasFootball: 0
   hasGatorade: 0
   hasPepsi: 0
+  hasSprite: 0
   footballIndicator: {fileID: 1899771934}
   gatoradeSpeed: 0
   pepsiSpeed: 0
@@ -2846,6 +2847,7 @@ MonoBehaviour:
   enemyPrefab: {fileID: 8636856305444897313, guid: 5e7010fe4d97c0b41a2e51f5ec5b7d96, type: 3}
   gatoradePrefab: {fileID: 7290239346403864138, guid: 93b0bfa0e8082194d8904d79483c36cd, type: 3}
   pepsiPrefab: {fileID: 7818506252204037872, guid: f88d1a7263e3653498677b6c767a3fe0, type: 3}
+  spritePrefab: {fileID: 3090780160576233144, guid: c98bf5a54e9f28e428bbbd5babce9864, type: 3}
 --- !u!1 &1001079638
 GameObject:
   m_ObjectHideFlags: 0

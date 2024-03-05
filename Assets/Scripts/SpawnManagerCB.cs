@@ -8,6 +8,8 @@ public class SpawnManagerCB : MonoBehaviour
     public GameObject enemyPrefab;
     public GameObject gatoradePrefab;
     public GameObject pepsiPrefab;
+    public GameObject spritePrefab;
+
     private float spawnRange = 15;
 
     // Start is called before the first frame update
@@ -38,6 +40,8 @@ public class SpawnManagerCB : MonoBehaviour
     void SpawnCollectable(){
         Instantiate(gatoradePrefab, GenerateSpawnPosition(), gatoradePrefab.transform.rotation);
         Instantiate(pepsiPrefab, GenerateSpawnPosition(), pepsiPrefab.transform.rotation);
+        Instantiate(spritePrefab, GenerateSpawnPosition(), spritePrefab.transform.rotation);
+
     }
 }
 // new Vector3(0, 0.81f, 6), 

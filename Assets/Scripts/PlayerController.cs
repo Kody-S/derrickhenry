@@ -19,6 +19,7 @@ public class PlayerController : MonoBehaviour
     public bool hasFootball;
     public bool hasGatorade;
     public bool hasPepsi;
+    public bool hasSprite;
     public GameObject footballIndicator;
     private bool gameOver = false;
     public float gatoradeSpeed;
@@ -77,6 +78,13 @@ public class PlayerController : MonoBehaviour
             moveSpeed = pepsiSpeed;
             Destroy(other.gameObject);
             //StartCoroutine(PowerupCountdownRoutine());
+            playerAudio.PlayOneShot(collectSound, 1.0f);
+        }
+
+        if (other.CompareTag("Sprite")){
+            hasSprite = true;
+
+            Destroy(other.gameObject);
             playerAudio.PlayOneShot(collectSound, 1.0f);
         }
     }

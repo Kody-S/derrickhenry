@@ -12,6 +12,7 @@ TagManager:
   - Pepsi
   - Football Indicator
   - Endzone
+  - Sprite
   layers:
   - Default
   - TransparentFX
