@@ -83,10 +83,17 @@ public class PlayerController : MonoBehaviour
 
         if (other.CompareTag("Sprite")){
             hasSprite = true;
-
             Destroy(other.gameObject);
             playerAudio.PlayOneShot(collectSound, 1.0f);
+            StartCoroutine(PowerupCountdownRoutine());
         }
+    }
+
+    IEnumerator PowerupCountdownRoutine(){
+        hasSprite = false;
+        theRB.isKinematic = true;
+        yield return new WaitForSeconds(3);
+        theRB.isKinematic = false;
     }
 
     private void OnCollisionEnter(Collision collision){
@@ -96,6 +103,10 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Game Over!");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 10);
         }
+
+        // if (collision.gameObject.CompareTag("Enemy") && hasFootball && hasSprite){
+        //     gameOver = false;
+        // }
 
         if (collision.gameObject.CompareTag("Endzone") && hasFootball){
             Debug.Log("You Win!");

@@ -2162,7 +2162,7 @@ GameObject:
   - component: {fileID: 1166046334}
   m_Layer: 0
   m_Name: Football Indicator
-  m_TagString: Untagged
+  m_TagString: Football Indicator
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2246,7 +2246,6 @@ GameObject:
   - component: {fileID: 1180951739}
   - component: {fileID: 1180951738}
   - component: {fileID: 1180951737}
-  - component: {fileID: 1180951736}
   - component: {fileID: 1180951735}
   - component: {fileID: 1180951734}
   - component: {fileID: 1180951740}
@@ -2292,8 +2291,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.3169284, y: 3.7032766, z: 0.20000002}
-  m_Center: {x: -0.020932406, y: 0.04073344, z: 0}
+  m_Size: {x: 3.3169284, y: 3.637703, z: 0.20000002}
+  m_Center: {x: -0.020932406, y: 0.01946837, z: 0}
 --- !u!95 &1180951735
 Animator:
   serializedVersion: 5
@@ -2315,33 +2314,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1180951736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1180951732}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 540525d04e0748948941fedf769a855e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  theRB: {fileID: 1180951737}
-  moveSpeed: 6
-  jumpForce: 6
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 8
-  groundPoint: {fileID: 1393877303}
-  hasFootball: 0
-  hasGatorade: 0
-  hasPepsi: 0
-  hasSprite: 0
-  footballIndicator: {fileID: 1166046333}
-  gatoradeSpeed: 0
-  pepsiSpeed: 0
-  collectSound: {fileID: 8300000, guid: d36535e075eb8d54a890ed5cad010384, type: 3}
 --- !u!54 &1180951737
 Rigidbody:
   m_ObjectHideFlags: 0
