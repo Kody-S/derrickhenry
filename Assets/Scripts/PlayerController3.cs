@@ -30,7 +30,8 @@ public class PlayerController3 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        playerAudio = GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame
@@ -86,8 +87,9 @@ public class PlayerController3 : MonoBehaviour
         if (other.CompareTag("Sprite")){
             hasSprite = true;
             Destroy(other.gameObject);
-            playerAudio.PlayOneShot(collectSound, 1.0f);
             StartCoroutine(PowerupCountdownRoutine());
+            playerAudio.PlayOneShot(collectSound, 1.0f);
+
         }
     }
 

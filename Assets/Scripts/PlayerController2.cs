@@ -30,7 +30,8 @@ public class PlayerController2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        playerAudio = GetComponent<AudioSource>();
+
     }
 
     // Update is called once per frame
@@ -85,8 +86,9 @@ public class PlayerController2 : MonoBehaviour
         if (other.CompareTag("Sprite")){
             hasSprite = true;
             Destroy(other.gameObject);
-            playerAudio.PlayOneShot(collectSound, 1.0f);
             StartCoroutine(PowerupCountdownRoutine());
+            playerAudio.PlayOneShot(collectSound, 1.0f);
+
         }
     }
 
@@ -119,6 +121,13 @@ public class PlayerController2 : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 89);
         }
 
+    }
+
+    private void OnCollisionEnter(Collider collision){
+        if (!gameObject.CompareTag("Enemy")){
+            gameManager.GameOver();
+            moveSpeed = 0.0f;
+        }
     }
 
 }

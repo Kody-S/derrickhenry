@@ -84,8 +84,8 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("Sprite")){
             hasSprite = true;
             Destroy(other.gameObject);
-            playerAudio.PlayOneShot(collectSound, 1.0f);
             StartCoroutine(PowerupCountdownRoutine());
+            playerAudio.PlayOneShot(collectSound, 1.0f);
         }
     }
 
