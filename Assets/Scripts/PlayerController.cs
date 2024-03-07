@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     GameManager gameManager;
     public Rigidbody theRB;
     public float moveSpeed, jumpForce;
+    public ParticleSystem explosionParticle;
 
     private Vector2 moveInput;
 

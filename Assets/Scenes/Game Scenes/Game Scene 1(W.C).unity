@@ -257,7 +257,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &59431632
@@ -280,7 +280,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8454db55cc44ea746af4ebbffc0d55ad, type: 2}
+  - {fileID: 2100000, guid: 7d06a7f3effa9e140b410e533151e226, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1093,6 +1093,7 @@ MonoBehaviour:
   theRB: {fileID: 209366510}
   moveSpeed: 5.5
   jumpForce: 6
+  explosionParticle: {fileID: 2852413659578719189, guid: 066dd222b602e49afbe0f2b9c3c96ddb, type: 3}
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
