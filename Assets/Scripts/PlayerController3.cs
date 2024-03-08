@@ -10,6 +10,8 @@ public class PlayerController3 : MonoBehaviour
     GameManager gameManager;
     public Rigidbody theRB;
     public float moveSpeed, jumpForce;
+    public ParticleSystem explosionParticle;
+
 // :3 - nolan
     private Vector2 moveInput;
 
@@ -103,9 +105,10 @@ public class PlayerController3 : MonoBehaviour
     private void OnCollisionEnter(Collision collision){
         if (collision.gameObject.CompareTag("Enemy") && hasFootball){
             Debug.Log("Collided with " + collision.gameObject.name + " with football " + hasFootball);
+            explosionParticle.Play();
             gameOver = true;
             Debug.Log("Game Over!");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 80);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 80);
         }
 
         // if (collision.gameObject.CompareTag("Enemy") && hasFootball && hasSprite){
