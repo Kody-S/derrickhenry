@@ -6,7 +6,7 @@ using TMPro;
 public class Enemy : MonoBehaviour
 {
     public float speed;
-    private Rigidbody enemyRb;
+    public Rigidbody enemyRb;
     private GameObject player;
     // Start is called before the first frame update
     void Start()
@@ -22,7 +22,7 @@ public class Enemy : MonoBehaviour
         enemyRb.AddForce((player.transform.position - transform.position).normalized * speed);
     }
 
-    private void GameOver(){
+    public void GameOver(){
         speed = 0;
     }
 }

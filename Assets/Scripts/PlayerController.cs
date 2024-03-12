@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour
     public AudioClip collectSound;
     private AudioSource playerAudio;
     // Start is called before the first frame update
+    
     void Start()
     {
         playerAudio = GetComponent<AudioSource>();
@@ -100,8 +101,10 @@ public class PlayerController : MonoBehaviour
     private void OnCollisionEnter(Collision collision){
         if (collision.gameObject.CompareTag("Enemy") && hasFootball){
             Debug.Log("Collided with " + collision.gameObject.name + " with football " + hasFootball);
+            theRB.isKinematic = true;
+            Enemy enemy = collision.gameObject.GetComponent<Enemy>();
+            enemy.enemyRb.isKinematic = true;
             explosionParticle.Play();
-            gameOver = true;
             Debug.Log("Game Over!");
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 10);
         }
