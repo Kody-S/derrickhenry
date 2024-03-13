@@ -90,24 +90,35 @@ public class PlayerController2 : MonoBehaviour
             Destroy(other.gameObject);
             StartCoroutine(PowerupCountdownRoutine());
             playerAudio.PlayOneShot(collectSound, 1.0f);
-
         }
     }
 
     IEnumerator PowerupCountdownRoutine(){
         hasSprite = false;
         theRB.isKinematic = true;
+        // Enemy enemy = collision.gameObject.GetComponent<Enemy>();
+        // enemy.enemyRb.isKinematic = true;
         yield return new WaitForSeconds(3);
         theRB.isKinematic = false;
+        // enemy.enemyRb.isKinematic = false;
+    }
+
+    IEnumerator ParticleCountdownRoutine(){
+        // figure out how to have explosion particle play for only a couple seconds and then have the you lose cover appear
+        explosionParticle.Play();
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 80);
     }
 
     private void OnCollisionEnter(Collision collision){
         if (collision.gameObject.CompareTag("Enemy") && hasFootball){
             Debug.Log("Collided with " + collision.gameObject.name + " with football " + hasFootball);
-            explosionParticle.Play();
-            gameOver = true;
+            theRB.isKinematic = true;
+            Enemy enemy = collision.gameObject.GetComponent<Enemy>();
+            enemy.enemyRb.isKinematic = true;
+            StartCoroutine(ParticleCountdownRoutine());
+            // explosionParticle.Play();
             Debug.Log("Game Over!");
-            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 80);
         }
 
         // if (collision.gameObject.CompareTag("Enemy") && hasFootball && hasSprite){

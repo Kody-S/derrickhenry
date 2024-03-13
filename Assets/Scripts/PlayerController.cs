@@ -94,8 +94,19 @@ public class PlayerController : MonoBehaviour
     IEnumerator PowerupCountdownRoutine(){
         hasSprite = false;
         theRB.isKinematic = true;
+        // Enemy enemy = collision.gameObject.GetComponent<Enemy>();
+        // enemy.enemyRb.isKinematic = true;
         yield return new WaitForSeconds(3);
         theRB.isKinematic = false;
+        // enemy.enemyRb.isKinematic = false;
+
+    }
+
+    IEnumerator ParticleCountdownRoutine(){
+        // figure out how to have explosion particle play for only a couple seconds and then have the you lose cover appear
+        explosionParticle.Play();
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 10);
     }
 
     private void OnCollisionEnter(Collision collision){
@@ -104,9 +115,9 @@ public class PlayerController : MonoBehaviour
             theRB.isKinematic = true;
             Enemy enemy = collision.gameObject.GetComponent<Enemy>();
             enemy.enemyRb.isKinematic = true;
-            explosionParticle.Play();
+            StartCoroutine(ParticleCountdownRoutine());
+            //explosionParticle.Play();
             Debug.Log("Game Over!");
-            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 10);
         }
 
         // if (collision.gameObject.CompareTag("Enemy") && hasFootball && hasSprite){
