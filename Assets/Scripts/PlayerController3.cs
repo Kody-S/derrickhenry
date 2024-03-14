@@ -122,6 +122,11 @@ public class PlayerController3 : MonoBehaviour
             Debug.Log("Game Over!");
         }
 
+        if (collision.gameObject.CompareTag("Enemy") &! hasFootball){
+            Debug.Log("Game Over!");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 88);
+        }
+
         // if (collision.gameObject.CompareTag("Enemy") && hasFootball && hasSprite){
         //     gameOver = false;
         // }

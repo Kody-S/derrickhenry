@@ -7,6 +7,7 @@ using Unity.UI;
 
 public class PlayerController : MonoBehaviour
 {
+    //Enemy enemyscript;
     GameManager gameManager;
     public Rigidbody theRB;
     public float moveSpeed, jumpForce;
@@ -94,7 +95,7 @@ public class PlayerController : MonoBehaviour
     IEnumerator PowerupCountdownRoutine(){
         hasSprite = false;
         theRB.isKinematic = true;
-        // Enemy enemy = collision.gameObject.GetComponent<Enemy>();
+        // Enemy enemy = gameObject.GetComponent<Enemy>();
         // enemy.enemyRb.isKinematic = true;
         yield return new WaitForSeconds(3);
         theRB.isKinematic = false;
@@ -120,8 +121,14 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Game Over!");
         }
 
-        // if (collision.gameObject.CompareTag("Enemy") && hasFootball && hasSprite){
-        //     gameOver = false;
+        if (collision.gameObject.CompareTag("Enemy") &! hasFootball){
+            Debug.Log("Game Over!");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 92);
+        }
+
+        // if (collision.gameObject.CompareTag("Enemy") && hasFootball && hasSprite == true){
+        // Debug.Log("Frozen");
+        
         // }
 
         if (collision.gameObject.CompareTag("Endzone") && hasFootball){
