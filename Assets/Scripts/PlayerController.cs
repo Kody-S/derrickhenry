@@ -71,16 +71,13 @@ public class PlayerController : MonoBehaviour
             gatoradeSpeed = moveSpeed + 2;
             moveSpeed = gatoradeSpeed;
             Destroy(other.gameObject);
-            //StartCoroutine(PowerupCountdownRoutine());
+            StartCoroutine(GatoradeCountdownRoutine());
             playerAudio.PlayOneShot(collectSound, 1.0f);
         }
         if (other.CompareTag("Pepsi")){
             hasPepsi = true;
-            theRB.velocity = new Vector3(moveInput.x * moveSpeed + pepsiSpeed, theRB.velocity.y, moveInput.y * moveSpeed + pepsiSpeed);
-            pepsiSpeed = moveSpeed - 2;
-            moveSpeed = pepsiSpeed;
             Destroy(other.gameObject);
-            //StartCoroutine(PowerupCountdownRoutine());
+            StartCoroutine(PepsiCountdownRoutine());
             playerAudio.PlayOneShot(collectSound, 1.0f);
         }
 
@@ -92,6 +89,20 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    IEnumerator PepsiCountdownRoutine(){
+        hasPepsi = false;
+        theRB.velocity = new Vector3(moveInput.x * moveSpeed + pepsiSpeed, theRB.velocity.y, moveInput.y * moveSpeed + pepsiSpeed);
+        pepsiSpeed = moveSpeed - 2;
+        moveSpeed = pepsiSpeed;
+        yield return new WaitForSeconds(3);
+        //theRB.velocity = new Vector3(moveInput.x * moveSpeed, theRB.velocity.y, moveInput.y * moveSpeed);
+    }
+
+    IEnumerator GatoradeCountdownRoutine(){
+        hasGatorade = false;
+        yield return new WaitForSeconds(3);
+    }
+    
     IEnumerator PowerupCountdownRoutine(){
         hasSprite = false;
         theRB.isKinematic = true;
