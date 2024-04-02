@@ -7,7 +7,7 @@ using Unity.UI;
 
 public class PlayerController : MonoBehaviour
 {
-    //Enemy enemyscript;
+    //Enemy enemyScript;
     GameManager gameManager;
     public Rigidbody theRB;
     public float moveSpeed, jumpForce;
@@ -76,6 +76,9 @@ public class PlayerController : MonoBehaviour
         }
         if (other.CompareTag("Pepsi")){
             hasPepsi = true;
+            theRB.velocity = new Vector3(moveInput.x * moveSpeed + pepsiSpeed, theRB.velocity.y, moveInput.y * moveSpeed + pepsiSpeed);
+            pepsiSpeed = moveSpeed - 2;
+            moveSpeed = pepsiSpeed;
             Destroy(other.gameObject);
             StartCoroutine(PepsiCountdownRoutine());
             playerAudio.PlayOneShot(collectSound, 1.0f);
@@ -91,11 +94,7 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator PepsiCountdownRoutine(){
         hasPepsi = false;
-        theRB.velocity = new Vector3(moveInput.x * moveSpeed + pepsiSpeed, theRB.velocity.y, moveInput.y * moveSpeed + pepsiSpeed);
-        pepsiSpeed = moveSpeed - 2;
-        moveSpeed = pepsiSpeed;
         yield return new WaitForSeconds(3);
-        //theRB.velocity = new Vector3(moveInput.x * moveSpeed, theRB.velocity.y, moveInput.y * moveSpeed);
     }
 
     IEnumerator GatoradeCountdownRoutine(){
@@ -106,12 +105,11 @@ public class PlayerController : MonoBehaviour
     IEnumerator PowerupCountdownRoutine(){
         hasSprite = false;
         theRB.isKinematic = true;
-        // Enemy enemy = gameObject.GetComponent<Enemy>();
-        // enemy.enemyRb.isKinematic = true;
+        // Enemy enemyScript = gameObject.GetComponent<Enemy>();
+        // enemyScript.enemyRb.isKinematic = true;
         yield return new WaitForSeconds(3);
         theRB.isKinematic = false;
-        // enemy.enemyRb.isKinematic = false;
-
+        // enemyScript.enemyRb.isKinematic = false;
     }
 
     IEnumerator ParticleCountdownRoutine(){
