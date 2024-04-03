@@ -7,7 +7,7 @@ using Unity.UI;
 
 public class PlayerController : MonoBehaviour
 {
-    //Enemy enemyScript;
+    // Enemy enemyScript;
     GameManager gameManager;
     public Rigidbody theRB;
     public float moveSpeed, jumpForce;

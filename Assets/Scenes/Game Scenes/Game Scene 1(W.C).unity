@@ -1092,7 +1092,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   theRB: {fileID: 209366510}
-  enemyRB: {fileID: 1563557674678748371, guid: ea3ffcbaf86b9d54ab64ec22ea823017, type: 3}
   moveSpeed: 5.5
   jumpForce: 6
   explosionParticle: {fileID: 628152297}
@@ -2779,7 +2778,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &726227288
 Transform:
   m_ObjectHideFlags: 0
@@ -3632,7 +3631,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &988579122
 Transform:
   m_ObjectHideFlags: 0
@@ -3986,7 +3985,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1093346452
 Transform:
   m_ObjectHideFlags: 0
