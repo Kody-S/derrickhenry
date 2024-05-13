@@ -5311,7 +5311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   theRB: {fileID: 1805475052}
   moveSpeed: 6.5
-  jumpForce: 7
+  jumpForce: 6
   explosionParticle: {fileID: 1413515794}
   whatIsGround:
     serializedVersion: 2
