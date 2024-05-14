@@ -73,7 +73,7 @@ public class PlayerController2 : MonoBehaviour
             gatoradeSpeed = moveSpeed + 2;
             moveSpeed = gatoradeSpeed;
             Destroy(other.gameObject);
-            StartCoroutine(GatoradeCountdownRoutine());
+            //StartCoroutine(GatoradeCountdownRoutine());
             playerAudio.PlayOneShot(collectSound, 1.0f);
         }
         if (other.CompareTag("Pepsi")){
@@ -82,15 +82,27 @@ public class PlayerController2 : MonoBehaviour
             pepsiSpeed = moveSpeed - 2;
             moveSpeed = pepsiSpeed;
             Destroy(other.gameObject);
-            StartCoroutine(PepsiCountdownRoutine());
+            //StartCoroutine(PepsiCountdownRoutine());
             playerAudio.PlayOneShot(collectSound, 1.0f);
         }
 
         if (other.CompareTag("Sprite")){
             hasSprite = true;
             Destroy(other.gameObject);
-            StartCoroutine(PowerupCountdownRoutine());
+            //StartCoroutine(PowerupCountdownRoutine());
             playerAudio.PlayOneShot(collectSound, 1.0f);
+        }
+
+        if (other.gameObject.CompareTag("Pepsi") &! hasFootball){
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 89);
+        }
+
+        if (other.gameObject.CompareTag("Gatorade") &! hasFootball){
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 89);
+        }
+
+        if (other.gameObject.CompareTag("Sprite") &! hasFootball){
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 89);
         }
     }
 
@@ -102,16 +114,6 @@ public class PlayerController2 : MonoBehaviour
         yield return new WaitForSeconds(3);
         theRB.isKinematic = false;
         // enemyScript.enemyRb.isKinematic = false;
-    }
-
-    IEnumerator PepsiCountdownRoutine(){
-        hasPepsi = false;
-        yield return new WaitForSeconds(3);
-    }
-
-    IEnumerator GatoradeCountdownRoutine(){
-        hasGatorade = false;
-        yield return new WaitForSeconds(3);
     }
 
     IEnumerator ParticleCountdownRoutine(){
@@ -136,10 +138,6 @@ public class PlayerController2 : MonoBehaviour
             Debug.Log("Game Over!");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 89);
         }
-
-        // if (collision.gameObject.CompareTag("Enemy") && hasFootball && hasSprite){
-        //     gameOver = false;
-        // }
 
         if (collision.gameObject.CompareTag("Endzone") && hasFootball){
             Debug.Log("You Win!");

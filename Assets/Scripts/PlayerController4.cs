@@ -73,7 +73,7 @@ public class PlayerController4 : MonoBehaviour
             gatoradeSpeed = moveSpeed + 2;
             moveSpeed = gatoradeSpeed;
             Destroy(other.gameObject);
-            StartCoroutine(GatoradeCountdownRoutine());
+            //StartCoroutine(GatoradeCountdownRoutine());
             playerAudio.PlayOneShot(collectSound, 1.0f);
         }
         if (other.CompareTag("Pepsi")){
@@ -82,7 +82,7 @@ public class PlayerController4 : MonoBehaviour
             pepsiSpeed = moveSpeed - 2;
             moveSpeed = pepsiSpeed;
             Destroy(other.gameObject);
-            StartCoroutine(PepsiCountdownRoutine());
+            //StartCoroutine(PepsiCountdownRoutine());
             playerAudio.PlayOneShot(collectSound, 1.0f);
 
         }
@@ -93,16 +93,18 @@ public class PlayerController4 : MonoBehaviour
             StartCoroutine(PowerupCountdownRoutine());
             playerAudio.PlayOneShot(collectSound, 1.0f);
         }
-    }
 
-    IEnumerator PepsiCountdownRoutine(){
-        hasPepsi = false;
-        yield return new WaitForSeconds(3);
-    }
+        if (other.gameObject.CompareTag("Pepsi") &! hasFootball){
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 87);
+        }
 
-    IEnumerator GatoradeCountdownRoutine(){
-        hasGatorade = false;
-        yield return new WaitForSeconds(3);
+        if (other.gameObject.CompareTag("Gatorade") &! hasFootball){
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 87);
+        }
+
+        if (other.gameObject.CompareTag("Sprite") &! hasFootball){
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 87);
+        }
     }
 
     IEnumerator PowerupCountdownRoutine(){
@@ -137,10 +139,6 @@ public class PlayerController4 : MonoBehaviour
             Debug.Log("Game Over!");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 87);
         }
-
-        // if (collision.gameObject.CompareTag("Enemy") && hasFootball && hasSprite){
-        //     gameOver = false;
-        // }
 
         if (collision.gameObject.CompareTag("Endzone") && hasFootball){
             Debug.Log("You Win!");
